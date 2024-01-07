@@ -6,7 +6,7 @@ import languageRoutes from "./routes/language.routes";
 const app = express();
 
 // Settings
-app.set("port", 6157);
+app.set("port", 8057);
 
 // Middlewares
 app.use(morgan("dev"));
